@@ -3,7 +3,6 @@ const int pinoBuzzer = 10;                               // Declarando e definin
 const int pinoBotao1 = 9;                                // Declarando e definindo um valor constante para a saída digital conectada ao primeiro botão.
 const int pinoBotao2 = 11;                               // Declarando e definindo um valor constante para a saída digital conectada ao segundo botão.
 
-
 void setup() {
   pinMode(pinoBuzzer, OUTPUT);                           // Declarando que o buzzer é uma saída.
   pinMode(pinoBotao1, INPUT_PULLUP);                     // Declarando que o botão 1 é uma entrada e habilitando um resistor interno da placa.
