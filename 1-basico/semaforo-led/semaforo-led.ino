@@ -20,6 +20,7 @@ void loop() {
   digitalWrite(12, HIGH);              // Semáforo amarelo p/ veículos durante 2 segundos.
   digitalWrite(11, LOW);
   digitalWrite(10, HIGH);
+  
   delay(500);
   digitalWrite(10, LOW);               // Semáforo vermelho piscante para pedestres enquanto o semáforo amarelo para veículos está ativo.
   delay(500);                          
